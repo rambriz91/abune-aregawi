@@ -5,8 +5,8 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav>
-      <ul>
+    <nav className='w-full mr-0.5'>
+      <ul className='flex justify-end'>
         <li>
           <Link to='/'>Home</Link>
         </li>

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  background-image: url('/images/—Pngtree—beautiful blue sky background with_1235044.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav li {
+    margin: 0.5%;
+    color: aliceblue;
+    font-size: 1.25rem;
+    padding: 2px;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#church-name {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.25rem;
+    display: grid;
+    align-items: center;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
