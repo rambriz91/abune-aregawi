@@ -60,3 +60,28 @@ h6 {
 .georgia {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media(max-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    #church-name {
+        font-size:1.75rem
+    }
+
+    #church-logo {
+        width: 20%;
+    }
+
+    #name-div {
+        width: 80%
+    }
+
+    #home-div {
+        flex-wrap: wrap-reverse;
+    }
+    #left-div,  #right-div {
+        width: 100%;
+    }
+
+}
