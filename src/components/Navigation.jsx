@@ -5,7 +5,7 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className='w-full mr-0.5'>
+    <nav className='w-full bg-blue-800'>
       <ul className='flex justify-end'>
         <li>
           <Link to='/'>Home</Link>
