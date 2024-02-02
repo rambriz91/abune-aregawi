@@ -24,9 +24,6 @@ export default function About() {
         Family!
       </p>
     </div>
-    <div>
-      <img src="" alt="" />
-    </div>
     </>
   );
 }
