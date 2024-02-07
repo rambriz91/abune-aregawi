@@ -6,21 +6,21 @@ function Navigation() {
 
   return (
     <nav className='w-full bg-blue-800'>
-      <ul className='flex justify-end'>
+      <ul className='flex justify-end georgia'>
         <li>
-          <Link to='/'>ቤት / Home</Link>
+          <Link to='/' className={currentPage === '/' ? 'glow' : ''}>ቤት / Home</Link>
         </li>
         <li>
-          <Link to='/About'>ስለ / About</Link>
+          <Link to='/About' className={currentPage === '/About' ? 'glow' : ''}>ስለ / About</Link>
         </li>
         <li>
-          <Link to='/Services'>አገልግሎቶች / Services</Link>
+          <Link to='/Services' className={currentPage === '/Services' ? 'glow' : ''}>አገልግሎቶች / Services</Link>
         </li>
         <li>
-          <Link to='/Supporters'>ደጋፊዎች / Supporters</Link>
+          <Link to='/Supporters' className={currentPage === '/Supporters' ? 'glow' : ''}>ደጋፊዎች / Supporters</Link>
         </li>
         <li>
-          <Link to='/Contact'>ተገናኝ / Contact</Link>
+          <Link to='/Contact' className={currentPage === '/Contact' ? 'glow' : ''}>ተገናኝ / Contact</Link>
         </li>
       </ul>
     </nav>
