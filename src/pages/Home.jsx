@@ -6,11 +6,15 @@ export default function Home() {
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
         <img
-          className='w-3/4'
+          className='w-3/4 rounded'
           src='/images/Abune-Aregawi-12-1200x802.jpg'
-          alt=''
+          alt='Temple of Abune Aregawi'
         />
-        <img className='w-3/4 mt-5' src='/images/aregawi-mural.jpg' alt='' />
+        <img
+          className='w-3/4 mt-5 rounded'
+          src='/images/aregawi-mural.jpg'
+          alt='Mural of Abune Aregawi'
+        />
       </div>
       <div id='right-div' className='w-1/2 my-10'>
         <h2 className='text-center georgia'>እምነታችን / Our Faith</h2>
@@ -53,9 +57,15 @@ export default function Home() {
             reward, and whoever welcomes a righteous person as a righteous
             person will receive a righteous person’s reward.
           </li>
-          <li>42 ማንም ከእነዚህ ከታናናሾቹ ለአንዱ ቀዝቃዛ ጽዋ ውኃ ብቻ በደቀ መዝሙር ስም የሚያጠጣ፥ እውነት እላችኋለሁ፥ ዋጋው አይጠፋበትም።</li>
-          <li>And if anyone gives even a cup of cold water to one of these little ones who is my disciple, truly I tell you, 
-            that person will certainly not lose their reward.</li>
+          <li>
+            42 ማንም ከእነዚህ ከታናናሾቹ ለአንዱ ቀዝቃዛ ጽዋ ውኃ ብቻ በደቀ መዝሙር ስም የሚያጠጣ፥ እውነት
+            እላችኋለሁ፥ ዋጋው አይጠፋበትም።
+          </li>
+          <li>
+            And if anyone gives even a cup of cold water to one of these little
+            ones who is my disciple, truly I tell you, that person will
+            certainly not lose their reward.
+          </li>
         </ul>
       </div>
     </div>

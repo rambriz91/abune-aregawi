@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
     <div className='flex flex-col max-h-full items-center text-2xl georgia'>
-      <h2 className='text-center m-5 text-blue-900'>ስለ እኛ / About Us</h2>
+      <h2 className='text-center m-5'>ስለ እኛ / About Us</h2>
       <img className= "flex w-10/12 m-5" src="/images/St.Aregawi Banner.png" alt="Church Banner" />
       <p className='w-10/12 m-5'>
         እርስዎ እንዲቀላቀሉን ተጋብዘዋል! እኛ ትንሽ፣ ተለዋዋጭ፣ ወግ አጥባቂ ጉባኤ ነን፣ በሳን ዲዬጎ፣ CA። ቤተሰብ፣

@@ -1,30 +1,11 @@
 export default function Contact() {
   return (
-    <>
-      <h1>Contact</h1>
-      <section>
-        <form>
-          <div>
-            <div>
-              <div>
-                <h3>Name</h3>
-                <input type='text' />
-              </div>
-              <div>
-                <h3>Email</h3>
-                <input type='text' />
-              </div>
-              <div>
-                <h3>Message</h3>
-                <textarea type='text' />
-              </div>
-              <div>
-                <button type='submit'>submit</button>
-              </div>
-            </div>
-          </div>
-        </form>
-      </section>
-    </>
+    <div className='flex flex-col text-2xl georgia'>
+      <h2 className='flex text-center m-5 georgia'>ተገናኝ / Contact</h2>
+      <div className='flex flex-col'>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   );
 }

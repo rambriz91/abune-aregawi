@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className='flex flex-col text-2xl georgia items-center'>
-      <h1 className='text-center m-5'>Services</h1>
+      <h1 className='text-center m-5'>አገልግሎቶች / Services</h1>
       <p className='w-10/12 m-5'>
         የአምልኮ አገልግሎቶች ዘወትር ቅዳሜ ጥዋት ከጠዋቱ 5፡30 እስከ ጥዋት ይካሄዳሉ ቀትር. ከአምልኮ
         በኋላ፣በማህበረሰብ ሰዓታችን እናዝናለን። እዚህ, እንሰበስባለን እንግዶቻችንን፣ ጓደኞቻችንን እና ቤተሰቦቻችንን
@@ -19,8 +19,16 @@ export default function Services() {
         temple, etc.
       </p>
       <div className='flex justify-evenly'>
-        <img className="w-1/3 m-2" src="/images/congregation 1.jpg" alt="Congregation" />
-        <img className="w-1/3 m-2" src="/images/congregation 2.jpg" alt="More Congregation" />
+        <img
+          className='w-1/3 m-2'
+          src='/images/congregation 1.jpg'
+          alt='Congregation'
+        />
+        <img
+          className='w-1/3 m-2'
+          src='/images/congregation 2.jpg'
+          alt='More Congregation'
+        />
       </div>
     </div>
   );

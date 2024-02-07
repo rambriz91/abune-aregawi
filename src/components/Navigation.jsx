@@ -8,19 +8,19 @@ function Navigation() {
     <nav className='w-full bg-blue-800'>
       <ul className='flex justify-end'>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/'>ቤት / Home</Link>
         </li>
         <li>
-          <Link to='/About'>About</Link>
+          <Link to='/About'>ስለ / About</Link>
         </li>
         <li>
-          <Link to='/Services'>Services</Link>
+          <Link to='/Services'>አገልግሎቶች / Services</Link>
         </li>
         <li>
-          <Link to='/Supporters'>Supporters</Link>
+          <Link to='/Supporters'>ደጋፊዎች / Supporters</Link>
         </li>
         <li>
-          <Link to='/Contact'>Contact</Link>
+          <Link to='/Contact'>ተገናኝ / Contact</Link>
         </li>
       </ul>
     </nav>

@@ -1,8 +1,8 @@
 export default function Supporters() {
   return (
-    <>
-      <h1>Our Wonderful Supporters</h1>
-      <p>
+    <div className='flex flex-col max-h-full items-center text-2xl georgia'>
+      <h2 className='text-center m-5'>ድንቅ ደጋፊዎቻችን / Our Wonderful Supporters</h2>
+      <p className='w-10/12 m-5'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -11,6 +11,6 @@ export default function Supporters() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-    </>
+    </div>
   );
 }
