@@ -10,10 +10,10 @@ main {
 }
 
 nav li {
-    margin: 0.5%;
-    color: aliceblue;
-    font-size: 1.25rem;
-    padding: 2px;
+  margin: 0.5%;
+  color: aliceblue;
+  font-size: 1.25rem;
+  padding: 2px;
 }
 
 h1 {
@@ -49,39 +49,47 @@ h6 {
 }
 
 #church-name {
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2.25rem;
-    display: grid;
-    align-items: center;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2.25rem;
+  display: grid;
+  align-items: center;
 }
 
 .georgia {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media(max-width: 768px) {
-    h2 {
-        font-size: 2.5rem;
-    }
-    #church-name {
-        font-size:1.75rem
-    }
+.georgia li {
+  margin: 10px;
+}
 
-    #church-logo {
-        width: 20%;
-    }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  #church-name {
+    font-size: 1.75rem;
+  }
 
-    #name-div {
-        width: 80%
-    }
+  #church-logo {
+    width: 20%;
+  }
 
-    #home-div {
-        flex-wrap: wrap-reverse;
-    }
-    #left-div,  #right-div {
-        width: 100%;
-    }
+  #name-div {
+    width: 80%;
+  }
 
+  #home-div {
+    flex-wrap: wrap-reverse;
+  }
+  #left-div,
+  #right-div {
+    width: 100%;
+  }
+
+  #right-div h3 {
+    margin-left: 4%;
+  }
 }
