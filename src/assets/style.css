@@ -57,6 +57,10 @@ h6 {
   align-items: center;
 }
 
+#contact {
+  justify-content: center;
+}
+
 .georgia {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
