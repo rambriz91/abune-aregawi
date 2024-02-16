@@ -74,6 +74,10 @@ h6 {
   font-weight: 400;
 }
 
+.thumbnail {
+  width: 100px;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 2.5rem;

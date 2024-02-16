@@ -3,7 +3,7 @@ export default function Contact() {
     <div className='w-full'>
       <h2 className='text-center m-5 georgia w-full'>ተገናኝ / Contact</h2>
       <div className='flex w-full justify-around'>
-        <div className='m-5 flex flex-col georgia text-2xl w-1/2 items-center'>
+        <div className='m-5 p-5 flex flex-col georgia text-2xl w-1/2'>
           <p>Email: SaintAbuneAregawiOrthodox@gmail.com</p>
           <p>Phone: (619) 567-9416</p>
           <p>Address: 5202 Orange Ave, San Diego, CA 92115</p>

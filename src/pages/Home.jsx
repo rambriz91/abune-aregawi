@@ -67,6 +67,7 @@ export default function Home() {
             certainly not lose their reward.
           </li>
         </ul>
+        <a className='text-indigo-800 underline font-bold text-xl p-5 m-5 georgia' href="https://en.wikipedia.org/wiki/Ethiopian_Orthodox_Tewahedo_Church">ስለ እምነታችን የበለጠ ተማር / Learn more about our faith</a>
       </div>
     </div>
   );
