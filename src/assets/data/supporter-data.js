@@ -31,7 +31,7 @@ const data = [
   {
     id: 5,
     supporter: 'Awash Ethiopian Restaurant & Market',
-    src: '/images/Awash-Logo.png',
+    src: '/images/Awash.png',
     desc: `Awash supports our church, our families support Awash! Specializing in Fine imported 
           grocery and househod items as well as Delightful 
           and Traditional Ethiopian Cafe fare. Awash 

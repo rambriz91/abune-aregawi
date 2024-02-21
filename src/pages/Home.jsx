@@ -6,12 +6,19 @@ export default function Home() {
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
         <h2>Aba Woldehawariat Assefa</h2>
-      <h2>Azmara Hailu, Vice President</h2>
+        <h2>Azmara Hailu, Vice President</h2>
         <img
           className='w-3/4 rounded'
           src='/images/Abune-Aregawi-12-1200x802.jpg'
           alt='Temple of Abune Aregawi'
         />
+        <h2 className='mt-5'>Who is Saint Abune Aregawi?</h2>
+        <a
+          className='text-indigo-800 underline font-bold text-xl p-1 m-1 georgia'
+          href='https://en.wikipedia.org/wiki/Abuna_Aregawi'
+        >
+          ስለ አቡነ አረጋዊ የበለጠ ለማወቅ / To learn more about Abune Aregawi
+        </a>
         <img
           className='w-3/4 mt-5 rounded'
           src='/images/aregawi-mural.jpg'
@@ -69,7 +76,12 @@ export default function Home() {
             certainly not lose their reward.
           </li>
         </ul>
-        <a className='text-indigo-800 underline font-bold text-xl p-5 m-5 georgia' href="https://en.wikipedia.org/wiki/Ethiopian_Orthodox_Tewahedo_Church">ስለ እምነታችን የበለጠ ተማር / Learn more about our faith</a>
+        <a
+          className='text-indigo-800 underline font-bold text-xl p-5 m-5 georgia'
+          href='https://en.wikipedia.org/wiki/Ethiopian_Orthodox_Tewahedo_Church'
+        >
+          ስለ እምነታችን የበለጠ ተማር / Learn more about our faith
+        </a>
       </div>
     </div>
   );
