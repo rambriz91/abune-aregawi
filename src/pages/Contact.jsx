@@ -6,7 +6,8 @@ export default function Contact() {
         <div className='m-5 p-5 flex flex-col georgia text-2xl w-1/2'>
           <p>Email: SaintAbuneAregawiOrthodox@gmail.com</p>
           <p>Phone: (619) 567-9416</p>
-          <p>Address: 5202 Orange Ave, San Diego, CA 92115</p>
+          <p>Worship Service Address: 5202 Orange Ave, San Diego, CA 92115</p>
+          <p>Mailing Address: PO Box 153047 San Diego CA 92195</p>
         </div>
         <div className='m-5 flex justify-start w-1/2'>
           <iframe

@@ -3,7 +3,7 @@ export default function Services() {
     <div className='flex flex-col text-2xl georgia items-center'>
       <h1 className='text-center m-5'>አገልግሎቶች / Services</h1>
       <p className='w-10/12 m-5'>
-        የአምልኮ አገልግሎቶች ዘወትር ቅዳሜ ጥዋት ከጠዋቱ 5፡30 እስከ ጥዋት ይካሄዳሉ ቀትር. ከአምልኮ
+        የአምልኮ አገልግሎቶች ዘወትር ቅዳሜ ከጠዋቱ 5፡30 እስከ 12:00 Noon ይካሄዳሉ ቀትር. ከአምልኮ
         በኋላ፣በማህበረሰብ ሰዓታችን እናዝናለን። እዚህ, እንሰበስባለን እንግዶቻችንን፣ ጓደኞቻችንን እና ቤተሰቦቻችንን
         በባህላዊ ኢትዮዽያዊነት ይገናኙ በቤተሰቦቻችን የሚመጡ የምግብ ምግቦች. የተለመዱ በዓላትን እናከብራለን በባህላዊ
         አቆጣጠር፣ ገናን፣ መልካም አርብ፣ ፋሲካን፣ ጨምሮ የቅዱስ አቡነ ልደታ በዓል፣ የቅዱስ አቡነ ምሥረታ በዓል
@@ -11,7 +11,7 @@ export default function Services() {
       </p>
       <p className=' w-10/12 m-5'>
         Worship Services are held every Saturday Morning from 5:30 AM until
-        Noon. After Worship, we enjoy our Community Hour. Here, we gather to
+        12:00 Noon. After Worship, we enjoy our Community Hour. Here, we gather to
         connect with our guests, friends and families over traditional Ethiopian
         food dishes brought by our families. We celebrate the customary holidays
         on our traditional calendar, including Christmas, Good Friday, Easter,
