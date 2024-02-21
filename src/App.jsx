@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className='flex'>
+      <main className='flex justify-center w-full'>
         <Outlet />
       </main>
       <Footer />

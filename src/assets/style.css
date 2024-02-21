@@ -75,7 +75,7 @@ h6 {
 }
 
 .thumbnail {
-  width: 100px;
+  width: 50%;
 }
 
 @media (max-width: 768px) {
