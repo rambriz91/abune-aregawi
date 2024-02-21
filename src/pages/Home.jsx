@@ -5,6 +5,8 @@ export default function Home() {
         id='left-div'
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
+        <h2>Aba Woldehawariat Assefa</h2>
+      <h2>Azmara Hailu, Vice President</h2>
         <img
           className='w-3/4 rounded'
           src='/images/Abune-Aregawi-12-1200x802.jpg'
