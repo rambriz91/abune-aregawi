@@ -9,11 +9,11 @@ export default function Home() {
         id='left-div'
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
-        <img
+        {/* <img
           className='w-3/4 rounded'
           src='/images/Abune-Aregawi-12-1200x802.jpg'
           alt='Temple of Abune Aregawi'
-        />
+        /> */}
         <h2 className='mt-5'>Who is Saint Abune Aregawi?</h2>
         <a
           className='text-indigo-800 underline font-bold text-xl p-1 m-1 georgia'
