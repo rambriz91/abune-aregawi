@@ -1,12 +1,14 @@
 export default function Home() {
   return (
-    <div id='home-div' className='flex'>
+    <div id='home-div' className='flex flex-wrap'>
+      <div className=' flex flex-col w-full'>
+        <h2 className='text-center'>Aba Woldehawariat Assefa</h2>
+        <h2 className='text-center'>Azmara Hailu, Vice President</h2>
+      </div>
       <div
         id='left-div'
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
-        <h2>Aba Woldehawariat Assefa</h2>
-        <h2>Azmara Hailu, Vice President</h2>
         <img
           className='w-3/4 rounded'
           src='/images/Abune-Aregawi-12-1200x802.jpg'
