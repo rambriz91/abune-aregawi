@@ -9,6 +9,7 @@ import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import Services from './pages/Services.jsx';
 import Supporters from './pages/Supporters.jsx';
+import Event from './pages/Event.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Event',
+        element: <Event />,
       },
       {
         path: '/Services',

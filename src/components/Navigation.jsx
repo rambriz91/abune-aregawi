@@ -16,6 +16,7 @@ function Navigation() {
         <li>
           <Link to='/Services' className={currentPage === '/Services' ? 'glow' : ''}>አገልግሎቶች / Services</Link>
         </li>
+        <li><Link to= '/Event' className={currentPage === '/Event' ? 'glow': ''}>ክስተት / Events</Link> </li>
         <li>
           <Link to='/Supporters' className={currentPage === '/Supporters' ? 'glow' : ''}>ደጋፊዎች / Supporters</Link>
         </li>
