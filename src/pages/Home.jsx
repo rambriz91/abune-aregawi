@@ -9,11 +9,12 @@ export default function Home() {
         id='left-div'
         className='flex flex-col justify-center items-center w-1/2 my-10'
       >
-        {/* <img
+        <a className='text-white font-bold text-3xl p-1 mb-3 georgia' href="https://en.wikipedia.org/wiki/Church_of_Our_Lady_Mary_of_Zion">Axum Tigray Church</a>
+        <img
           className='w-3/4 rounded'
-          src='/images/Abune-Aregawi-12-1200x802.jpg'
-          alt='Temple of Abune Aregawi'
-        /> */}
+          src='/images/Church_Our_Lady_Mary_Zion_Axum_Ethio.jpg'
+          alt='Cathedral of Our Lady Mary of Zion'
+        />
         <h2 className='mt-5'>Who is Saint Abune Aregawi?</h2>
         <a
           className='text-indigo-800 underline font-bold text-xl p-1 m-1 georgia'
